@@ -142,7 +142,7 @@
                         Github : <a href="https://github.com/ikay-udeh" target="_blank">github.com/ikay-udeh</a>
                     </li>
                     <li class="text-center pt-5 text-gray-900 font-bold">
-                        Website : <a href="https://github.com/ikay-udeh" target="_blank"></a>
+                        Website : <a href="https://ikayresume.herokuapp.com/" target="_blank">https://ikayresume.herokuapp.com/</a>
                     </li>
                 </ul>
             </div>
