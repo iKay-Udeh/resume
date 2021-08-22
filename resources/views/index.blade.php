@@ -7,183 +7,146 @@
         </div>
     @endif
 
-    <div class="m-auto w-4/5 gap-20 py-15">
-        <h1 class="uppercase text-black font-extrabold text-4xl text-center pb-5">
-            about me
-        </h1>
-        <p class="m-auto text-center text-gray-900 text-xl">
-            Hello. My name is Ikenna Udeh, a Python and PHP web developer. This is a simple resume page I designed for HNG
-        </p>
+<div class="bg-white shadow overflow-hidden sm:rounded-lg">
+    <div class="px-4 py-5 sm:px-6">
+      <h3 class="text-lg text-center leading-10 font-extrabold text-gray-900 uppercase lg:text-4xl">
+        Profile
+      </h3>
     </div>
-
-
-    <div class="m-auto w-4/5 gap-20 py-10">
-        <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
-            Education
-        </h1>
-
-        <div class="grid grid-cols-2 m-auto pb-5">
-            <div>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    2009 - 2011
-                </h3>
-                <h4 class="text-center pt-5 text-gray-900 font-bold">
-                    Government Secondary School, Jibi, Abuja
-                </h4>
-            </div>
-            <div>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    2012 - 2017
-                </h3>
-                <h4 class="text-center pt-5 text-gray-900 font-bold">
-                    Nnamdi Azikiwe University, Awka, Anambra
-                </h4>
-            </div>
+    <div class="border-t border-gray-200">
+      <dl>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            Full name
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 lg:text-base">
+            Ikenna Patrick Udeh
+          </dd>
         </div>
-    </div>
-
-    <div class="m-auto w-4/5 gap-20 py-10">
-        <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
+        <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            Dev role
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 lg:text-base">
+            Backend Developer
+          </dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            Email address
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 leading-6 lg:text-base">
+            <ol>udeh.ikenna@yahoo.com</ol> 
+            <ol>devikenna@yahoo.com</ol>
+          </dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            About
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 leading-6 lg:text-base">
+            Hello! My name is Ikenna Udeh. I'm an PHP and Python backend developer. I abosolutely the thrill I get from writing some words on a computer screen and seeing my creation transformed into an amazing tool. When I'm not coding, I'm usually reading about tech
+          </dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
             Experience
-        </h1>
-        <div class="grid grid-cols-2 m-auto pb-5">
-            <div>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    2018 - 2020
-                </h3>
-                <h4 class="text-center pt-5 pb-5 text-gray-900 font-bold">
-                    3nity Cyber Cafe
-                </h4>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    Role
-                </h3>
-                <h4 class="text-center pt-5 text-gray-900 font-bold">
-                    Manager
-                </h4>
-            </div>
-
-            <div>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    2021 - Present
-                </h3>
-                <h4 class="text-center pt-5 pb-5 text-gray-900 font-bold">
-                    Hugo Tech
-                </h4>
-                <h3 class="text-3xl text-cool-gray-600 m-auto text-center font-bold">
-                    Role
-                </h3>
-                <h4 class="text-center pt-5 text-gray-900 font-bold">
-                    Customer Support Agent
-                </h4>
-            </div>
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 leading-6 lg:text-base">
+            <ol>
+              2019 - 2020 --- NYSC
+            </ol>
+            <ol>
+              2021 - Present --- Customer Service Agent at Hugotech
+            </ol>
+          </dd>
         </div>
-    </div>
-    
-
-    <div class="flex grid-cols-3 justify-between items-center">
-        <div class="m-auto w-4/5 gap-20 py-10">
-            <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
-                Hobbies and Interests
-            </h1>
-            <div>
-                <ul class="m-auto pb-2 text-center">
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Music
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Video Games
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Tech
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Travelling
-                    </li>
-                </ul>
-            </div>
-        </div>
-    
-        <div class="m-auto w-4/5 gap-20 py-10">
-            <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
-                Skills 
-            </h1>
-            <div>
-                <ul class="m-auto pb-2 text-center">
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Django
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Laravel
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Tailwind CSS
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        My SQL
-                    </li>
-                </ul>
-            </div>
-    
-        </div>
-
-        <div class="m-auto w-4/5 gap-20 py-10">
-            <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
-                Contact Info
-            </h1>
-            <div>
-                <ul class="m-auto pb-2 text-center">
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Email : udeh.ikenna@yahoo.com
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Phone : 08135544767
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Github : <a href="https://github.com/ikay-udeh" target="_blank">github.com/ikay-udeh</a>
-                    </li>
-                    <li class="text-center pt-5 text-gray-900 font-bold">
-                        Website : <a href="https://ikayresume.herokuapp.com/" target="_blank">https://ikayresume.herokuapp.com/</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div id="contact-me" class="m-auto w-5/12 gap-20 py-10 shadow-lg mt-5">
-        <h1 class="uppercase text-black font-extrabold text-3xl text-center pb-5">
-            Contact Me
-        </h1>
-        <form action="/" method="post">
-            @csrf
-            <ul class="m-auto pb-2 text-center">
-                <li class="py 2 mb-2 text-xl mt-2">
-                    First Name
-                </li>
-                <input type="text" name="first_name" class="w-4/5 h-10 focus:outline-none" placeholder="Enter your first name">
-                <li class="py 2 mb-2 text-xl mt-2">
-                    Last Name
-                </li>
-                <input type="text" name="last_name" class="w-4/5 h-10 focus:outline-none" placeholder="Enter your last name">
-                <li class="py 2 mb-2 text-xl mt-2">
-                    Email
-                </li>
-                <input type="email" name="email" class="w-4/5 h-10 focus:outline-none" placeholder="Enter your email">
-                <li class="py 2 mb-2 text-xl mt-2">
-                    Subject
-                </li>
-                <input type="text" name="subject" class="w-4/5 h-10 focus:outline-none" placeholder="Enter subject">
-                <li class="py 2 mb-2 text-xl mt-2">
-                    Message
-                </li>
-                <textarea type="text" name="message" class="w-4/5 h-32 focus:outline-none" placeholder="Enter message"></textarea>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            Skills
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 leading-6 lg:text-base">
+            <ul>
+              <li>
+                PHP
+              </li>
+              <li>
+                Laravel
+              </li>
+              <li>
+                Python
+              </li>
+              <li>
+                Django
+              </li>
+              <li>
+                MySQL
+              </li>
             </ul>
-            <div class="w-full text-center h-10">
-                <button type="submit" value="submit" class="border bg-green-400 h-full w-4/5 hover-fill text-gray-900 uppercase">
-                    Submit
-                </button>
-            </div>
-            
-        </form>
+          </dd>
+        </div>
+        <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+          <dt class="text-sm font-medium text-gray-500 uppercase lg:font-bold lg:text-xl">
+            Hobbies
+          </dt>
+          <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 leading-6 lg:text-base">
+            <ul>
+              <li>
+                Travelling
+              </li>
+              <li>
+                Playing video Games
+              </li>
+              <li>
+                Listening to music
+              </li>
+              <li>
+                Reading
+              </li>
+              <li>
+                Tech Enthusiast
+              </li>
+            </ul>
+          </dd>
+        </div>
+      </dl>
     </div>
+  </div>
+  <div id="contact-me"class="container lg:w-4/5 lg:m-auto">
+	<!-- code here -->
+	<div class="card lg:w-4/6 lg:m-auto lg:my-5">
+		<div class="card-image text-center">
+			<h3 class="text-lg text-center leading-10 font-extrabold text-gray-900 uppercase lg:text-4xl">
+        Contact me
+      </h3>
+		</div>
+		<form class="card-form">
+      @csrf
+			<div class="input">
+				<input type="text" class="input-field" name="first_name" required />
+				<label class="input-label">First name</label>
+			</div>
+      <div class="input">
+				<input type="text" class="input-field" name="last_name" required />
+				<label class="input-label">Last name</label>
+			</div>
+			<div class="input">
+				<input type="emai" class="input-field" name="email" required />
+				<label class="input-label">Email</label>
+			</div>
+			<div class="input">
+				<input type="text" class="input-field" name="subject" required />
+				<label class="input-label">Subject</label>
+			</div>
+      <div class="input">
+				<input type="text" class="input-field h-40" name="message" required />
+				<label class="input-label">Message</label>
+			</div>
+			<div class="action">
+				<button class="action-button">Submit</button>
+			</div>
+		</form>
+	</div>
+</div>
 
 @endsection
